@@ -1,0 +1,7 @@
+input_a = int(input("입력 진수 결정(16/10/8/2) : "))
+input_b = input("값 입력 : ")
+input_b = int(input_b,input_a)
+print("16진수 ==>",hex(input_b))
+print("10진수 ==>",input_b)
+print("8진수 ==>",oct(input_b))
+print("2진수 ==>",bin(input_b))
